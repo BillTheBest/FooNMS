@@ -24,7 +24,7 @@ int main(void)
 	MYSQL_ROW row;
 	char *server = "localhost";
 	char *user = "jscott";
-	char *password = "mWrxp6zG4ezqjDST"; /* set me first */
+	char *password = "no password here"; /* set me first */
 	char *database = "jscott_newzen";
 	
 	//Socket stuff.
