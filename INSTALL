@@ -2,3 +2,17 @@ INSTALL PROCESS FOR FOONMS
 ==========================
 
 Since FooNMS is still in experimental stages, there's no installer.
+
+1)	Create two databases, one for Drupal and one for FooNMS.
+1.5)	For the FooNMS DB, run the SQL file to initialise it.
+2)	Install Drupal.
+3)	Copy the modules into sites/all/modules in Drupal and enable the ones you want.
+4)	Copy the backend files somewhere (not www accessable).
+5)	Go there; ./foonms-daemon &
+
+
+===== Debian Deps: =====
+  * python-pysnmp2
+  * python-mysqldb
+  * python-sqlalchemy
+

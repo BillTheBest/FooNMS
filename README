@@ -1,5 +1,23 @@
+        .--------------------------------------------------------------.
+        |                                                              |
+        |                            FooNMS                            |
+        |                                                              |
+        '--------------------------------------------------------------'
+
+
+For copyright information, see the LICENSE file.
+
+
+Introduction:
+=============
+FooNMS is a network management system designed from the ground up to be as 
+modular and as extendable as possible, while at the same time remaining fast
+and scaleable. Whether you just want to know if a host is pingable, or
+whether you want to track and manage changes to hundreds of hosts across 
+several continents, FooNMS can be configured to do it.
+
 Features:
----------
+=========
   * High-level and low-level network and system diagnostics, statistics and
     control.
   * Lightweight. Low memory and CPU usage.
@@ -7,6 +25,17 @@ Features:
     to all reside on different servers.
   * Written to use commodity hardware, programming languages, protocols and
     database systems.
+
+Installation:
+=============
+See the INSTALL file.
+
+Development:
+============
+FooNMS is an open-source project written by a group of volunteers across
+the globe. To help out with development, visit the GitHub page:
+	http://github.com/JackScottAU/FooNMS
+Please also read the DEVELOPING file.
 
 Architectural Overview:
 -----------------------
