@@ -27,6 +27,19 @@ are invoked through the command line. Some of these scripts are slow
 while these are in progress. A better solution is possible, but adds a 
 lot of complexity. 
 
+Developing:
+-----------
+We use git. You should too.
+Our git branch model:
+ - master contains the most up to date 'stable' config, with all major 
+	releases tagged. All emergency bugfixes happen to this branch.
+ - development is where most of the development happens. If a feature
+	doesn't have it's own branch, then it's done in development and 
+	merged into master later.
+ - X branches are for specific features, which are merged into development
+	when they are done. This is to ensure that one person's new grand
+	feature doesn't break the site constantly for everybody else.
+
 More details:
 -------------
 Website:	http://www.fooproject.com.au/products/foonms/
