@@ -1,0 +1,5 @@
+name = Network Status Overview
+description = Allows you to generate a basic network overview on any page on your site.
+core = 7.x
+version = 0.1
+package = FooNMS
