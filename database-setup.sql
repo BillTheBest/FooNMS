@@ -1,0 +1,1 @@
+/* Contains the commands to set up the necessary tables for FooNMS to work */

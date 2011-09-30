@@ -1,0 +1,5 @@
+name = Host Tracking
+description = TODO.
+core = 7.x
+version = 0.1
+package = FooNMS
