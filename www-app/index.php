@@ -37,13 +37,14 @@
 		{
 			font-family: Verdana, Geneva, Arial, sans-serif;
 			background-color: transparent;
-			margin-left: -200px;
+			margin-left: -213px;
 			position: absolute;
 			top: -140px;
 			left: 50%;
-			width: 400px;
+			width: 426px;
 			height: 280px;
-			visibility: visible
+			visibility: visible;
+			border: 1px solid black;
 		}
 
 		.bodytext 
@@ -86,10 +87,10 @@
 		<div id="content">
 			<div class="bodytext">
 				<!--<span class="headline">FooNMS</span><br />-->
-                            <img alt="FooNMS Logo"  src="./logo-large.png" />
+                            <img alt="FooNMS Logo"  src="./logo-large.png"/>
 				<form id="input" action="login.php" method="post">
-					Username: <input type="text" name="username" /><br />
-					Password: <input type="password" name="password" /><br />
+						Username: <input type="text" name="username" value="Username"/><br />
+						Password: <input type="password" name="password" value="Password"/><br />
 					<input type="submit" name="submit" value="Submit" />
 				</form>
                             <?php
